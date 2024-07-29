@@ -1,5 +1,14 @@
 # Kubeflow Manifests
 
+
+> ## 📢 Modified manifests for using Kubeflow 1.8.1 on Apple Silicon (M1/M2) 🐶
+> - I discovered that several Docker images under the ```docker.io/kubeflownotebookswg``` repository do not support the ARM64 architecture.
+> - As a temporary workaround, I opted to use Docker images from the https://hub.docker.com/u/vinaychandran , which provided ARM64-compatible versions. By using these alternative images, I was able to successfully complete the installation process.
+
+
+<br>
+
+
 ## Table of Contents
 
 <!-- toc -->
